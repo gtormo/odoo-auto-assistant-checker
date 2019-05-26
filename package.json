@@ -1,0 +1,16 @@
+{
+  "name": "odoo-auto-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy": "cypress run --headed",
+    "cy:headless": "cypress run"
+  },
+  "author": "Gonzalo Tormo",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
