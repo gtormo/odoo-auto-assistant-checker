@@ -1,7 +1,7 @@
 {
     "video": false,
-    "baseUrl": "https://mi.eset.es/web/login",
     "env": {
+        "url": "",
         "username": "",
         "password": ""
     }

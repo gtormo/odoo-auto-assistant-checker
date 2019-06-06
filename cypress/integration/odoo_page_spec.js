@@ -1,6 +1,6 @@
 describe('The Odoo login page', function() {
     it('successfully loads', function() {
-        cy.visit('https://mi.eset.es/web/login');
+        cy.visit(Cypress.env('url'));
 
         cy.get('input[name="login"]')
             .type(Cypress.env('username'))
