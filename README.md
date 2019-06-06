@@ -4,7 +4,7 @@
     - npm install
 
 2) Update settings:
-    - Go to cypress.json and put your credentials (username and password)
+    - Go to cypress.json and put your credentials (url, username and password)
 
 3) Run:
     - With browser view: 
