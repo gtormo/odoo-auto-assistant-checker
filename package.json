@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy": "cypress run --headed",
-    "cy:headless": "cypress run"
+    "cy:headless": "cypress run",
+    "cy:debug": "cypress run --headed --no-exit"
   },
   "author": "Gonzalo Tormo",
   "license": "ISC",
