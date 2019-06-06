@@ -7,10 +7,10 @@
     - Go to cypress.json and put your credentials (url, username and password)
 
 3) Run manually:
-        - With browser view: 
-            - npm run cy
-        - Without browser view: 
-            - npm run cy:headless
+    - With browser view: 
+        - npm run cy
+    - Without browser view: 
+        - npm run cy:headless
 
 4) Run Automated like cron job:
-    0 $HOUR * * * npm run --prefix $PROYECT_PATH cy:headless
+    - 0 $HOUR * * * npm run --prefix $PROYECT_PATH cy:headless
