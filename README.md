@@ -13,4 +13,4 @@
         - npm run cy:headless
 
 4) Run Automated like cron job:
-    - 0 $HOUR * * * npm run --prefix $PROYECT_PATH cy:headless
+    - 0 $HOUR * * * npm run --prefix $PROJECT_PATH cy:headless
